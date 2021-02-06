@@ -9,3 +9,5 @@ Here I have made this for people that don't feel like making the jobs, shipments
 4. Copy the text from One of our GLua files
 5. Paste into one of the lua files ( jobs.lua/shipments.lua/categories.lua )
 6. It explains what to do in there!
+
+# Made By Lx16#3084 and Ovbe#0001
