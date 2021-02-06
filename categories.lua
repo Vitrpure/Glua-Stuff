@@ -20,10 +20,6 @@ DarkRP.createCategory{
 
 Add new categories under the next line!
 ---------------------------------------------------------------------------]]
---[[
-    Generated using: DarkRP | Category Generator
-    https://csite.io/tools/gmod-darkrp-category
---]]
 DarkRP.createCategory{
     name = "Sub Machine Guns",
     categorises = "shipments",
@@ -32,10 +28,6 @@ DarkRP.createCategory{
     canSee = function(ply) return true end,
     sortOrder = 25
 }
---[[
-    Generated using: DarkRP | Category Generator
-    https://csite.io/tools/gmod-darkrp-category
---]]
 DarkRP.createCategory{
     name = "Machine Guns",
     categorises = "shipments",
@@ -44,10 +36,6 @@ DarkRP.createCategory{
     canSee = function(ply) return true end,
     sortOrder = 26
 }
---[[
-    Generated using: DarkRP | Category Generator
-    https://csite.io/tools/gmod-darkrp-category
---]]
 DarkRP.createCategory{
     name = "Pistols",
     categorises = "shipments",
