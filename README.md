@@ -1,5 +1,6 @@
-# GLua Stuff
-Here I have made this for people that don't feel like making the jobs, shipments, categories themselves you are free to take anything here. If there are any issues just make one to this repo and I will try to fix it or you can request a certain job or something.
+# GLua Creations
+We made this for the people who dont know what jobs to add or just plain out dont feel like doing it! Feel free to take what you need! If you would like to request a special job or weapon dm us on discord Located at the bottom of the page!
+
 
 # How to install
 
