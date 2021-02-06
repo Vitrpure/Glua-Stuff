@@ -12,13 +12,9 @@ https://github.com/FPtje/DarkRP/blob/master/gamemode/config/jobrelated.lua
 
 For examples and explanation please visit this wiki page:
 http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
-
+Made By: Ovbe#0001 Lx16#3084
 Add your custom jobs under the following line:
 ---------------------------------------------------------------------------]]
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_THEIF = DarkRP.createJob("Theif", {
     color = Color(0, 0, 0, 255),
     model = {"models/code_gs/robber/robberplayer.mdl"},
@@ -36,10 +32,6 @@ Kidnap - No]],
     candemote = false,
     category = "Gangsters"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_POLICE = DarkRP.createJob("Police Officer", {
     color = Color(33, 0, 255, 255),
     model = {
@@ -60,10 +52,6 @@ TEAM_POLICE = DarkRP.createJob("Police Officer", {
     candemote = false,
     category = "Civil Protection"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_MAYORID = DarkRP.createJob("Mayor", {
     color = Color(209, 14, 14, 255),
     model = {"models/player/breen.mdl"},
@@ -84,10 +72,6 @@ TEAM_MAYORID = DarkRP.createJob("Mayor", {
         DarkRP.notifyAll(0, 4, "The Mayor has died so the town must elect a new one!")
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_HITMAN = DarkRP.createJob("Hitman", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/leet.mdl"},
@@ -102,10 +86,6 @@ TEAM_HITMAN = DarkRP.createJob("Hitman", {
     candemote = false,
     category = "Gangsters"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_BARTENDER = DarkRP.createJob("Bartender", {
     color = Color(255, 215, 0, 255),
     model = {"models/player/Group01/male_08.mdl"},
@@ -120,10 +100,6 @@ TEAM_BARTENDER = DarkRP.createJob("Bartender", {
     candemote = false,
     category = "Citizens"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_BLOODMEMBER = DarkRP.createJob("Blood Member", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/bloodz/slow_1.mdl"},
@@ -138,10 +114,6 @@ TEAM_BLOODMEMBER = DarkRP.createJob("Blood Member", {
     candemote = false,
     category = "Gangsters"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_BLOODLEADER = DarkRP.createJob("Blood Leader", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/bloodz/slow_2.mdl"},
@@ -161,10 +133,6 @@ TEAM_BLOODLEADER = DarkRP.createJob("Blood Leader", {
         DarkRP.notifyAll(0, 4, "The bloods leader has been killed.")
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_CRIPMEMBER = DarkRP.createJob("Crip Member", {
     color = Color(51, 0, 255, 255),
     model = {"models/player/cripz/slow_2.mdl"},
@@ -179,10 +147,6 @@ TEAM_CRIPMEMBER = DarkRP.createJob("Crip Member", {
     candemote = false,
     category = "Gangsters"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_CRIPLEADER = DarkRP.createJob("Crip Leader", {
     color = Color(51, 0, 255, 255),
     model = {"models/player/cripz/slow_3.mdl"},
@@ -202,10 +166,6 @@ TEAM_CRIPLEADER = DarkRP.createJob("Crip Leader", {
         DarkRP.notifyAll(0, 4, "The crips leader has been killed.")
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_BANK = DarkRP.createJob("Bank Manager", {
     color = Color(255, 245, 0, 255),
     model = {"models/player/barney.mdl"},
@@ -220,10 +180,6 @@ TEAM_BANK = DarkRP.createJob("Bank Manager", {
     candemote = false,
     category = "Citizens"
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job#
---]]
 TEAM_SWATLEADER = DarkRP.createJob("Swat Leader", {
     color = Color(0, 26, 255, 255),
     model = {"models/player/urban.mdl"},
@@ -252,10 +208,6 @@ TEAM_SWATLEADER = DarkRP.createJob("Swat Leader", {
         DarkRP.notifyAll(0, 4, "SWAT leader has been killed.")
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job#
---]]
 TEAM_SWAT = DarkRP.createJob("Swat", {
     color = Color(0, 117, 255, 255),
     model = {"models/player/gasmask.mdl"},
@@ -279,10 +231,6 @@ TEAM_SWAT = DarkRP.createJob("Swat", {
         ply:SetArmor(30)
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job#
---]]
 TEAM_SWATSNIPER = DarkRP.createJob("Swat Sniper", {
     color = Color(91, 165, 255, 255),
     model = {"models/ninja/mw3/delta/delta4_masked.mdl"},
@@ -306,10 +254,6 @@ TEAM_SWATSNIPER = DarkRP.createJob("Swat Sniper", {
         ply:SetArmor(30)
     end
 })
---[[
-    Generated using: DarkRP | Job Generator
-    https://csite.io/tools/gmod-darkrp-job
---]]
 TEAM_MASTERTHEIF = DarkRP.createJob("Master Theif", {
     color = Color(255, 0, 12, 255),
     model = {"models/player/phoenix.mdl"},
