@@ -35,6 +35,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomShipmentFields
 
 
 Add shipments and guns under the following line:
+Made By Lx16#3084 and Ovbe#0001
 ---------------------------------------------------------------------------]]
 --[[
     Pistols
